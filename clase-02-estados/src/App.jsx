@@ -21,10 +21,10 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <Boton count={count} setCount={setCount}/>
-      {/* <Nombre nombre={nombre} setNombre={setNombre}/>
       <Nombre nombre={nombre} setNombre={setNombre}/>
       <Nombre nombre={nombre} setNombre={setNombre}/>
-      <Nombre nombre={nombre} setNombre={setNombre}/> */}
+      <Nombre nombre={nombre} setNombre={setNombre}/>
+      <Nombre nombre={nombre} setNombre={setNombre}/>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
