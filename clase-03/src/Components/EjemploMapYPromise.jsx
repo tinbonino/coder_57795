@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-import { productos } from "../productos";
+import { productos } from "../productos.js";
 import "../styles.css"
 function EjemploMapYPromise() {
 
