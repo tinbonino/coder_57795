@@ -3,7 +3,7 @@ import { useState } from 'react'
 import Navbar from './components/Navbar'
 import Layout from './components/Layout'
 import Body from './components/Body'
-
+import Renderizado from './components/Renderizado'
 import ThemeContext, {themes} from './context';
 
 
@@ -24,7 +24,9 @@ function App() {
             <Layout>
                 <Navbar/>
                 <Body/>
+                <Renderizado/>
             </Layout>
+
         </ThemeContext.Provider>
     </div>
   )
